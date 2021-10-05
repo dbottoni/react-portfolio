@@ -1,50 +1,73 @@
-import React from 'react'
+import React, { useEffect } from 'react';
 import { capitalizeFirstLetter } from "../../utils/helpers";
 
-function Nav(){
-  const categories = [
-    {name: "project1", description: 'Photos of grocery stores, food trucks, and other commercial projects' },
-    {name: "project2", description: 'Portraits of people in my life' },
-    {name: "project3", description: 'Delicious delicacies' },
-    {name: "project4", description: 'Fields, farmhouses, waterfalls, and the beauty of nature'},
-  ];
+function Nav(props){
+  const {
+    categories = [],
+    setCurrentCategory,
+    contactSelected,
+    currentCategory,
+    setContactSelected,
+   
   
-  function handleClick() { 
-    console.log("click handled")
-  }
+  } = props;
+  
+  useEffect(() => {
+      document.title = capitalizeFirstLetter(currentCategory.name);
+    }, [currentCategory]);
 
-   return (
-    <header data-testid="header" className="flex-row px-1">
-      <h2>
-        <a href="/">
-          <span role="img" aria-label="camera"> 📸</span> Dana Bottoni
-        </a>
-      </h2>
-      <nav>
-        <ul className="flex-row">
-          <li className="mx-2">
-            <a href="#about" onClick={() => handleClick()}>
-              About me
-            </a>
-          </li>
-          <li className={"mx-2"}>
-            <span onClick={() => handleClick()}>
-              Contact
-            </span>
-          </li>
-          {
-            categories.map((category) => (
-              <li className="mx-1" key={category.name} >
-                <span onClick={() => { handleClick(); }}>
-                 {capitalizeFirstLetter(category.name)}
+
+    return (
+      <header className="flex-row px-1">
+        <h2>
+          <a data-testid="link" href="/">
+            <span role="img" aria-label="camera"> InsertIcon </span> Dana Bottoni
+          </a>
+        </h2>
+        <nav>
+          <ul className="flex-row">
+            <li className="mx-2">
+              <a data-testid="about" href="#about" onClick={() => setContactSelected(false)}>
+                About me
+              </a>
+            </li>
+            <li className={`mx-2 ${contactSelected && 'navActive'}`}>
+              <span onClick={() => setContactSelected(true)}>Contact</span>
+            </li>
+            {/* {categories.map((category) => (
+              <li
+                className={`mx-1 ${
+                  currentCategory.name === category.name && !contactSelected && 'navActive'
+                  }`}
+                key={category.name}
+              >
+                <span
+                  onClick={() => {
+                    setCurrentCategory(category);
+                    setContactSelected(false);
+                  }}
+                >
+                  {capitalizeFirstLetter(category.name)}
                 </span>
               </li>
-            ))
-          }
-        </ul>
-      </nav>
-    </header>
-  );
+            ))} */}
+            {/* <li className="mx-2">
+              <a data-testid="portfolio" href="#portfolio" onClick={() => setContactSelected(false)}>
+                Portfolio
+                </a>
+            </li> */}
+            <li className="mx-2">
+              <span onClick={() => setContactSelected(true)}>Portfolio</span>
+            </li>
+            <li className="mx-2">
+              <a data-testid="resume" href="#resume" onClick={() => setContactSelected(false)}>
+                Resume
+                </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    );
 }
 
 
