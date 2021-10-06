@@ -1,11 +1,4 @@
 import React from 'react';
-
-//import { HashRouter as Router, Switch, Route } from 'react-router-dom';
-//import './assets/css/bootstrap.min.css';
-// import './assets/css/  ""
-// import './assets/css/  ""
-// import './assets/css/  ""
-
 import Nav from './components/Nav';
 import About from './components/About';
 import Contact from './components/Contact';
@@ -13,14 +6,23 @@ import Footer from './components/Footer';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
 
+//import { HashRouter as Router, Switch, Route } from 'react-router-dom';
+//import './assets/css/bootstrap.min.css';
+// import './assets/css/  ""
+// import './assets/css/  ""
+// import './assets/css/  ""
+
+
 function App(){
   return(
-    <div>
+    <div className="App">
       <Nav></Nav>
-      <About></About>
-      <Contact></Contact>
-      <Portfolio></Portfolio>
-      <Resume></Resume>
+      <main>
+        <About></About>
+        <Contact></Contact>
+        <Portfolio></Portfolio>
+        <Resume></Resume>
+      </main>
       <Footer/>
     </div>
   );

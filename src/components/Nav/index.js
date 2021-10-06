@@ -30,7 +30,7 @@ function Nav () {
       </header>
       
     </div>
-  )
+  );
 }
 
 

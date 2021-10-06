@@ -1,4 +1,13 @@
-// import React from 'react';
-// import { validateEmail } from '../../utils/helpers';
+import React from 'react';
+//import { validateEmail } from '../../utils/helpers';
 
-// export default Contact;
+
+function Contact(){
+ return(
+    <div>
+    Hi Contact
+  </div>
+ )
+}
+
+export default Contact;
