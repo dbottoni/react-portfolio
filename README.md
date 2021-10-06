@@ -1,19 +1,17 @@
-# Budget-Tracker
+# React-Portfolio
 
 ## Table of Contents
+
 - [Installation](#installation)
 - [Technology](#technology)
 - [Contributors](#contributors)
 
 ## Description
 
-
 ## Installation
 
-
-
 ## Technology
-* React
 
+- React
 
 ## Contributors

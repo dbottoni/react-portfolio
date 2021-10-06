@@ -1,75 +1,37 @@
-import React, { useEffect } from 'react';
-import { capitalizeFirstLetter } from "../../utils/helpers";
-
-function Nav(props){
-  const {
-    categories = [],
-    setCurrentCategory,
-    contactSelected,
-    currentCategory,
-    setContactSelected,
-   
-  
-  } = props;
-  
-  useEffect(() => {
-      document.title = capitalizeFirstLetter(currentCategory.name);
-    }, [currentCategory]);
+import React from 'react';
+//import { Link } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-    return (
-      <header className="flex-row px-1">
-        <h2>
-          <a data-testid="link" href="/">
-            <span role="img" aria-label="camera"> InsertIcon </span> Dana Bottoni
-          </a>
-        </h2>
-        <nav>
-          <ul className="flex-row">
-            <li className="mx-2">
-              <a data-testid="about" href="#about" onClick={() => setContactSelected(false)}>
-                About me
-              </a>
-            </li>
-            <li className={`mx-2 ${contactSelected && 'navActive'}`}>
-              <span onClick={() => setContactSelected(true)}>Contact</span>
-            </li>
-            {/* {categories.map((category) => (
-              <li
-                className={`mx-1 ${
-                  currentCategory.name === category.name && !contactSelected && 'navActive'
-                  }`}
-                key={category.name}
-              >
-                <span
-                  onClick={() => {
-                    setCurrentCategory(category);
-                    setContactSelected(false);
-                  }}
-                >
-                  {capitalizeFirstLetter(category.name)}
-                </span>
+
+function Nav () {
+  return (
+    <div>
+      <header>
+        <div class="container-fluid">
+          <nav class="navbar">
+            <ul class="navbar-nav">
+              {/* <li class="nav-item">
+                <Link to="/"></Link>
               </li>
-            ))} */}
-            {/* <li className="mx-2">
-              <a data-testid="portfolio" href="#portfolio" onClick={() => setContactSelected(false)}>
-                Portfolio
-                </a>
-            </li> */}
-            <li className="mx-2">
-              <span onClick={() => setContactSelected(true)}>Portfolio</span>
-            </li>
-            <li className="mx-2">
-              <a data-testid="resume" href="#resume" onClick={() => setContactSelected(false)}>
-                Resume
-                </a>
-            </li>
-          </ul>
-        </nav>
-      </header>
-    );
-}
+              <li class="nav-item">
+                <Link to="/portfolio"></Link>
+              </li>
+              <li class="nav-item">
+                <Link to="/resume"></Link>
+              </li>
+              <li class="nav-item">
+                <Link to="/contact"></Link>
+              </li> */}
+            </ul>
+          </nav>
 
+        </div>
+      </header>
+      
+    </div>
+  )
+}
 
 
 export default Nav;
