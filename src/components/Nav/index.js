@@ -4,13 +4,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
-function Nav () {
+function Nav() {
   return (
     <div>
       <header>
-        <div class="container-fluid">
-          <nav class="navbar">
-            <ul class="navbar-nav">
+        <div className="container-fluid">
+          <nav className="navbar">
+            <ul className="navbar-nav">
               {/* <li class="nav-item">
                 <Link to="/"></Link>
               </li>
