@@ -1,5 +1,4 @@
 import React from 'react';
-//import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -9,7 +8,7 @@ function Nav() {
     <nav className="navbar navbar-default">
       <div className="container-fluid">
         <div className="navbar-header">
-          <a data-testid="link" href="/">
+          <a data-testid="about" href="#about">
             Dana Bottoni
           </a>
         </div>
