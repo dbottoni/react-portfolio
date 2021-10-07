@@ -2,6 +2,8 @@ import React from 'react'
 // change variable and img link when done
 import nerdboard from '../../assets/img/nerdboard-thumb.jpg'
 import nightcap from '../../assets/img/nightcap-events-thumb.png'
+import passwordGen from '../../assets/img/password-gen-thumb.png'
+import proReadMe from '../../assets/img/pro-readme-thumb.png'
 
 
 function Portfolio() {
@@ -12,7 +14,7 @@ function Portfolio() {
 
                     <div class="col-md-12 col-sm-12">
                           <div class="wow fadeInUp section-title" data-wow-delay="0.2s">
-                              <h2>Portfolio</h2>
+                              <h2 class="text-center">Portfolio</h2>
                               <p> </p>
                           </div>
                     </div>
@@ -36,16 +38,17 @@ function Portfolio() {
                     <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.4s">
                           
                           <div class="work-thumb">
-                              <a href="https://github.com/dbottoni/project2-fullstack" target="_blank" class="image-popup">
-                                    <img src={nerdboard} class="img-responsive" alt="Fine Arts" /> </a>                             
+                              <a href="https://dbottoni.github.io/friendly-parakeet/" target="_blank" class="image-popup">
+                                    <img src={passwordGen} class="img-responsive" alt="Password Generator Img" /> </a>                             
                           </div>
-                          <h4>Nerdboard2</h4>
+                          <h4>Password Generator</h4>
                     </div>
 
                     <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.6s">
                         
                           <div class="work-thumb">
-                              <a href="https://github.com/dbottoni/project1" target="_blank" class="image-popup"> <img src={nightcap} class="img-responsive" alt="Logo Design"/> </a>
+                              <a href="https://github.com/dbottoni/professional-readme2" target="_blank" class="image-popup"> 
+                              <img src={proReadMe} class="img-responsive" alt="Professional ReadMe"/> </a>
                           </div>
                           <h4>Nightcap Events2</h4>
                     </div>
