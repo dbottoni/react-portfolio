@@ -12,47 +12,50 @@ function Portfolio() {
           <div class="container">
                 <div class="row">
 
-                    <div class="col-md-12 col-sm-12">
+                    <div>
                           <div class="wow fadeInUp section-title" data-wow-delay="0.2s">
                               <h2 class="text-center">Portfolio</h2>
+                              <h3 class="text-center">Select the image to be routed to the projects Github Page</h3>
+                              <h3 class="text-center">Select the projects name to be routed to the live link</h3>
                               <p> </p>
                           </div>
                     </div>
 
-                    <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.4s">
-                          
+                    <div class="col">                      
                           <div class="work-thumb">
                               <a href="https://github.com/dbottoni/project2-fullstack" target="_blank" class="image-popup">
-                                    <img src={nerdboard} class="img-responsive" alt="Fine Arts" /> </a>                             
+                                    <img src={nerdboard} class="img-responsive" alt="Fine Arts" /> </a>                        
+                                    <a href="https://pure-tundra-46686.herokuapp.com/" target="_blank"><h4>Nerdboard</h4> </a>
                           </div>
-                          <h4>Nerdboard</h4>
                     </div>
 
-                    <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.6s">
-                        
+                    <div class="col">     
                           <div class="work-thumb">
                               <a href="https://github.com/dbottoni/project1" target="_blank" class="image-popup"> <img src={nightcap} class="img-responsive" alt="Logo Design"/> </a>
                           </div>
-                          <h4>Nightcap Events</h4>
+                          <a href="https://dbottoni.github.io/project1/" target="_blank"> <h4>Nightcap Events</h4></a>
                     </div>
-                    <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.4s">
-                          
+                  <div class="w-100"></div>
+
+                    <div class="col">
                           <div class="work-thumb">
                               <a href="https://dbottoni.github.io/friendly-parakeet/" target="_blank" class="image-popup">
                                     <img src={passwordGen} class="img-responsive" alt="Password Generator Img" /> </a>                             
                           </div>
-                          <h4>Password Generator</h4>
+                          <a href="https://dbottoni.github.io/friendly-parakeet/" target="_blank"><h4>Password Generator</h4></a>
                     </div>
-
-                    <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.6s">
+            
+                    <div class="col">
                         
                           <div class="work-thumb">
                               <a href="https://github.com/dbottoni/professional-readme2" target="_blank" class="image-popup"> 
                               <img src={proReadMe} class="img-responsive" alt="Professional ReadMe"/> </a>
                           </div>
-                          <h4>Nightcap Events2</h4>
+                         
+                         <a href="https://github.com/dbottoni/professional-readme2" target="_blank"> <h4>Professional ReadMe Generator</h4> </a>
                     </div>
-                    
+
+                     <div class="w-100"></div>
 
                     {/* <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.8s">
                          
