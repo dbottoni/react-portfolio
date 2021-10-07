@@ -6,9 +6,13 @@ function About(){
   <section className="my-5">
     <div class="text-center">
       <h1 id="about">Who am I?</h1>
-        <img src={coverImage} className="my-2 rounded text-center" alt="cover" / >
+        <img src={coverImage} className="my-2 rounded text-center" alt="cover" />
+        <p>Nice to meet you!</p>
         <p>
-          Hi About Page - Enter Some Text about myself here
+          I am a dynamic and passionate full stack developer with experience <br/>
+          inbuilding efficient, streamlined applications. Looking to leverage <br/>
+          my development and technical experiences as I forge a new path in the world of code.
+
         </p>
     </div>
   </section>

@@ -12,7 +12,7 @@ function Portfolio() {
 
                     <div class="col-md-12 col-sm-12">
                           <div class="wow fadeInUp section-title" data-wow-delay="0.2s">
-                              <h2>Work Collection</h2>
+                              <h2>Portfolio</h2>
                               <p> </p>
                           </div>
                     </div>
@@ -20,19 +20,36 @@ function Portfolio() {
                     <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.4s">
                           
                           <div class="work-thumb">
-                              <a href="images/work-1.jpg" class="image-popup">
+                              <a href="https://github.com/dbottoni/project2-fullstack" target="_blank" class="image-popup">
                                     <img src={nerdboard} class="img-responsive" alt="Fine Arts" /> </a>                             
                           </div>
-                          <h4>Fine Arts</h4>
+                          <h4>Nerdboard</h4>
                     </div>
 
                     <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.6s">
                         
                           <div class="work-thumb">
-                              <a href="https://github.com/dbottoni/project1" class="image-popup"> <img src={nightcap} class="img-responsive" alt="Logo Design"/> </a>
+                              <a href="https://github.com/dbottoni/project1" target="_blank" class="image-popup"> <img src={nightcap} class="img-responsive" alt="Logo Design"/> </a>
                           </div>
-                          <h4>Logo Design</h4>
+                          <h4>Nightcap Events</h4>
                     </div>
+                    <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.4s">
+                          
+                          <div class="work-thumb">
+                              <a href="https://github.com/dbottoni/project2-fullstack" target="_blank" class="image-popup">
+                                    <img src={nerdboard} class="img-responsive" alt="Fine Arts" /> </a>                             
+                          </div>
+                          <h4>Nerdboard2</h4>
+                    </div>
+
+                    <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.6s">
+                        
+                          <div class="work-thumb">
+                              <a href="https://github.com/dbottoni/project1" target="_blank" class="image-popup"> <img src={nightcap} class="img-responsive" alt="Logo Design"/> </a>
+                          </div>
+                          <h4>Nightcap Events2</h4>
+                    </div>
+                    
 
                     {/* <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.8s">
                          
