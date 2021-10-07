@@ -6,30 +6,38 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Nav() {
   return (
-    <div>
-      <header>
-        <div className="container-fluid">
-          <nav className="navbar">
-            <ul className="navbar-nav">
-              {/* <li class="nav-item">
-                <Link to="/"></Link>
-              </li>
-              <li class="nav-item">
-                <Link to="/portfolio"></Link>
-              </li>
-              <li class="nav-item">
-                <Link to="/resume"></Link>
-              </li>
-              <li class="nav-item">
-                <Link to="/contact"></Link>
-              </li> */}
-            </ul>
-          </nav>
-
+    <nav className="navbar navbar-default">
+      <div className="container-fluid">
+        <div className="navbar-header">
+          <a data-testid="link" href="/">
+            Dana Bottoni
+          </a>
         </div>
-      </header>
-      
-    </div>
+        <ul className="flex-row navbar-right">
+          <li className="mx-2">
+            <a data-testid="about" href="#about"> 
+            About me
+            </a>
+          </li>
+          <li className="mx-2">
+            <a data-testid="portfolio" href="#portfolio">
+            Portfolio
+            </a>
+          </li>
+          <li className="mx-2">
+          <a data-testid="contact" href="#contact">
+            Contact
+          </a>
+          </li>
+          <li className="mx-2">
+          <a data-testid="Resume" href="#resume">
+            Resume
+          </a>
+          </li>
+        
+        </ul>
+      </div>
+    </nav>
   );
 }
 
