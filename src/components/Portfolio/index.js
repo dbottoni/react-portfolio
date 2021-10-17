@@ -13,7 +13,6 @@ function Portfolio() {
       <section id="work" class="parallax-section">
           <div class="container">
                 <div class="row">
-
                     <div>
                           <div class="wow fadeInUp section-title" data-wow-delay="0.2s">
                               <h2 class="text-center">Portfolio</h2>
@@ -30,14 +29,13 @@ function Portfolio() {
                                     <a href="https://pure-tundra-46686.herokuapp.com/" target="_blank"><h4>Nerdboard</h4> </a>
                           </div>
                     </div>
-
                     <div class="col">     
                           <div class="work-thumb">
                               <a href="https://github.com/dbottoni/project1" target="_blank" class="image-popup"> <img src={nightcap} class="img-responsive" alt="Logo Design"/> </a>
                           </div>
                           <a href="https://dbottoni.github.io/project1/" target="_blank"> <h4>Nightcap Events</h4></a>
                     </div>
-                  <div class="w-100"></div>
+                        <div class="w-100"></div>
 
                     <div class="col">
                           <div class="work-thumb">
@@ -45,10 +43,8 @@ function Portfolio() {
                                     <img src={passwordGen} class="img-responsive" alt="Password Generator Img" /> </a>                             
                           </div>
                           <a href="https://dbottoni.github.io/friendly-parakeet/" target="_blank"><h4>Password Generator</h4></a>
-                    </div>
-            
-                    <div class="col">
-                        
+                    </div>     
+                    <div class="col"> 
                           <div class="work-thumb">
                               <a href="https://github.com/dbottoni/professional-readme2" target="_blank" class="image-popup"> 
                               <img src={proReadMe} class="img-responsive" alt="Professional ReadMe"/> </a>
@@ -56,24 +52,20 @@ function Portfolio() {
                          
                          <a href="https://github.com/dbottoni/professional-readme2" target="_blank"> <h4>Professional ReadMe Generator</h4> </a>
                     </div>
-                  <div class="w-100"></div>
+                        <div class="w-100"></div>
 
-                    <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.8s">
-                         
+                    <div class="col">              
                           <div class="work-thumb">
-                              <a href="https://github.com/dbottoni/PokeTrader" class="image-popup">
+                              <a href="https://github.com/dbottoni/PokeTrader" target="_blank" class="image-popup">
                                     <img src={poketraders} class="img-responsive" alt="PokeTrader" />
                               </a>
                           </div>
                          <a href="https://github.com/dbottoni/PokeTrader" target="_blank">  <h4>PokeTraders</h4> </a>
                     </div>
-
-                    <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.8s">
-                          
+                    <div class="col" >
                           <div class="work-thumb">
-                              <a href="https://github.com/dbottoni/workday-scheduler" class="image-popup">
-                                    <img src={workday} class="img-responsive" alt="Workday-Scheduler" />
-                              </a>
+                              <a href="https://github.com/dbottoni/workday-scheduler" target="_blank" class="image-popup">
+                              <img src={workday} class="img-responsive" alt="Workday-Scheduler" /> </a>
                           </div>
                           <a href="https://github.com/dbottoni/workday-scheduler" traget="_blank"> <h4>Workday Scheduler</h4> </a>
                     </div>
