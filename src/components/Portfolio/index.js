@@ -4,6 +4,8 @@ import nerdboard from '../../assets/img/nerdboard-thumb.jpg'
 import nightcap from '../../assets/img/nightcap-events-thumb.png'
 import passwordGen from '../../assets/img/password-gen-thumb.png'
 import proReadMe from '../../assets/img/pro-readme-thumb.png'
+import poketraders from '../../assets/img/poketraders-thumb.jpg'
+import workday from '../../assets/img/workday-thumb.jpg'
 
 
 function Portfolio() {
@@ -54,28 +56,28 @@ function Portfolio() {
                          
                          <a href="https://github.com/dbottoni/professional-readme2" target="_blank"> <h4>Professional ReadMe Generator</h4> </a>
                     </div>
+                  <div class="w-100"></div>
 
-                     <div class="w-100"></div>
-
-                    {/* <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.8s">
+                    <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.8s">
                          
                           <div class="work-thumb">
-                              <a href="images/work-3.jpg" class="image-popup">
-                                    <img src="images/work-3.jpg" class="img-responsive" alt="Photography">
+                              <a href="https://github.com/dbottoni/PokeTrader" class="image-popup">
+                                    <img src={poketraders} class="img-responsive" alt="PokeTrader" />
                               </a>
                           </div>
-                          <h4>Photography</h4>
+                         <a href="https://github.com/dbottoni/PokeTrader" target="_blank">  <h4>PokeTraders</h4> </a>
                     </div>
 
                     <div class="wow fadeInUp col-md-3 col-sm-6" data-wow-delay="0.8s">
                           
                           <div class="work-thumb">
-                              <a href="images/work-4.jpg" class="image-popup">
-                                    <img src="images/work-4.jpg" class="img-responsive" alt="Cinematography">
+                              <a href="https://github.com/dbottoni/workday-scheduler" class="image-popup">
+                                    <img src={workday} class="img-responsive" alt="Workday-Scheduler" />
                               </a>
                           </div>
-                          <h4>Cinematography</h4>
-                    </div> */}
+                          <a href="https://github.com/dbottoni/workday-scheduler" traget="_blank"> <h4>Workday Scheduler</h4> </a>
+                    </div>
+                    <div class="w-100"></div>
 
                 </div>
           </div>
