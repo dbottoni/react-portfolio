@@ -10,7 +10,7 @@ function About(){
         <p>Nice to meet you!</p>
         <p>
           I am a dynamic and passionate full stack developer with experience <br/>
-          inbuilding efficient, streamlined applications. Looking to leverage <br/>
+          in building efficient, streamlined applications. Looking to leverage <br/>
           my development and technical experiences as I forge a new path in the world of code.
 
         </p>
