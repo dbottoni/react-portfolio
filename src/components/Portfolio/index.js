@@ -4,7 +4,7 @@ import nerdboard from '../../assets/img/nerdboard-thumb.jpg'
 import nightcap from '../../assets/img/nightcap-events-thumb.png'
 import passwordGen from '../../assets/img/password-gen-thumb.png'
 import proReadMe from '../../assets/img/pro-readme-thumb.png'
-import poketraders from '../../assets/img/poketraders-thumb.jpg'
+import poketraders from '../../assets/img/pockettrader-thumb.jpg'
 import workday from '../../assets/img/workday-thumb.jpg'
 
 
@@ -28,7 +28,7 @@ return (
                 <img src={poketraders} class="img-responsive" alt="PokeTrader" />
               </a>
               </div>
-            <a href="https://github.com/dbottoni/PokeTrader" target="_blank">  <h4>PokeTraders</h4> </a>
+            <a href="https://pocket-traders.herokuapp.com/" target="_blank">  <h4>PokeTraders</h4> </a>
           </div>     
           <div class="col">     
             <div class="work-thumb">
