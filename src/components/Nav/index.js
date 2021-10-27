@@ -13,7 +13,7 @@ function Nav() {
         <ul className="flex-row navbar-right">
           <li className="mx-2">
             <a data-testid="about" href="#about"> 
-            About me
+            About Me
             </a>
           </li>
           <li className="mx-2">
