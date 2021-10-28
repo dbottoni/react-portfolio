@@ -22,21 +22,30 @@ return (
               </div>
           </div>
 
-          <div className="card column is-half">
-            <div className="card-image">              
-                <figure className="image is-4by3">
+          <div className="card column is-one-third">
+            <article class="message is-link">
+              <div class="message-header is-justify-content-center">
+                <p>Pocket Traders</p>
+              </div>
+              <div class="message-body">
+                The Pocket Traders application is an online trading card game based on the Pokemon games that 
+                have provided entertainment to many followers and collectors throughout the years.
+              </div>
+              <div className="card-image">              
+                <figure className="image is-1280X960">
                   <a href="https://github.com/dbottoni/PokeTrader" target="_blank">
                     <img src={poketraders} alt="PokeTrader" />
                   </a>
                 </figure>
                 <p className="title is-4">
-                <a href="https://pocket-traders.herokuapp.com/" target="_blank">  <h4>PokeTraders</h4> </a>
-              </p>
-            </div>   
+                  <a href="https://pocket-traders.herokuapp.com/" target="_blank">  <h4>PokeTraders</h4> </a>
+                </p>
+              </div>   
+            </article>
           </div>  
-          <div className="card column is-half">
+          <div className="card column is-one-third">
             <div className="card-image">     
-                <figure className="image is-4by3">
+                <figure className="image is-1280X960">
                   <a href="https://github.com/dbottoni/project1" target="_blank"> 
                     <img src={nightcap} alt="NightcapEvents"/> 
                   </a>
@@ -47,9 +56,9 @@ return (
             </div>
           </div>
 
-          <div className="card column is-half">
+          <div className="card column is-one-third">
             <div className="card-image">              
-                <figure className="image is-4by3">
+                <figure className="image is-1280X960">
                   <a href="https://dbottoni.github.io/friendly-parakeet/" target="_blank">
                     <img src={passwordGen} alt="PasswordGen" />
                   </a>
@@ -61,9 +70,9 @@ return (
               </p>
             </div>   
           </div>  
-          <div className="card column is-half">
+          <div className="card column is-one-third">
             <div className="card-image">     
-                <figure className="image is-4by3">
+                <figure className="image is-1280X960">
                   <a href="https://github.com/dbottoni/professional-readme2" target="_blank"> 
                     <img src={proReadMe} alt="ProReadMeImage"/> 
                   </a>
@@ -76,9 +85,9 @@ return (
             </div>
           </div>
 
-          <div className="card column is-half">
+          <div className="card column is-one-third">
             <div className="card-image">              
-                <figure className="image is-4by3">
+                <figure className="image is-1280X960">
                   <a href="https://github.com/dbottoni/project2-fullstack" target="_blank">
                     <img src={nerdboard} alt="NerdBoard" />
                   </a>
@@ -90,9 +99,9 @@ return (
               </p>
             </div>   
           </div>  
-          <div className="card column is-half">
+          <div className="card column is-one-third">
             <div className="card-image">     
-                <figure className="image is-4by3">
+                <figure className="image is-1280X960">
                   <a href="https://github.com/dbottoni/workday-scheduler" target="_blank"> 
                     <img src={workday} alt="WorkDayScheduler"/> 
                   </a>
