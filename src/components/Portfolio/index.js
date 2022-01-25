@@ -85,7 +85,7 @@ return (
             </div>
           </div>
 
-          <div className="card column is-one-third">
+          {/* <div className="card column is-one-third">
             <div className="card-image">              
                 <figure className="image is-1280X960">
                   <a href="https://github.com/dbottoni/project2-fullstack" target="_blank">
@@ -112,7 +112,8 @@ return (
                 </a>
               </p>
             </div>
-          </div>
+          </div> */}
+
             {/*     
             <div className="columns" >
               <div className="work-thumb">
